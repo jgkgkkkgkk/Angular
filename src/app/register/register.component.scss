@@ -1,0 +1,16 @@
+.registration {
+    text-align: center;
+
+    .registration-form {
+        text-align: left;
+
+        .registration-form-field {
+
+            label {
+                width: 150px;
+                text-align: left;
+                display: inline-block;
+            }
+        }
+    }
+}
