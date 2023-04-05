@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class RegisterComponent {
 
+  public pageHeader: string = 'Registration header'
+
+  constructor() {
+  }
+
 }

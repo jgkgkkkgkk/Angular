@@ -5,12 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RegisterComponent } from './register/register.component';
 import { AboutComponent } from './about/about.component';
+import { newPageComponent } from './newpage/newPagecomponent';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegisterComponent,
-    AboutComponent
+    AboutComponent,
+    newPageComponent
+      
   ],
   imports: [
     BrowserModule,

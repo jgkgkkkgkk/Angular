@@ -22,4 +22,10 @@ export class AppComponent {
     console.log('about click');
     this.router.navigate(['about'])
   }
+
+  newPage(): void {
+    console.log('Поменять на вкус названия click');
+    this.router.navigate(['страница'])
+  }
+
 }
