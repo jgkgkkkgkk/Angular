@@ -1,0 +1,33 @@
+.newPage {
+    text-align: center;
+    width: 100%;
+    color: rgb(24, 24, 31);
+    
+}
+.newPage-form {
+    text-align: left;
+    vertical-align: top;
+    width: 40%;
+    display: inline-block;
+    color:red;
+
+
+    .newPage-form-field {
+
+        label {
+            width: 150px;
+            text-align: left;
+            display: inline-block;
+            color:chartreuse
+        }
+    }
+}
+
+.newPage-image{
+    text-align: right;
+    width: 40%;
+    display: inline-block;
+    color:blue
+}
+
+
